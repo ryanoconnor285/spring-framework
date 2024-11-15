@@ -1,6 +1,6 @@
 package com.adept_hosting.spring_framework.game;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole {
 	
 	public void up() {
 		System.out.println("Jump");
